@@ -24,16 +24,26 @@
     </header>
 
     <main>
-        <img class="goods-image" src="static/images/piano.avif" alt="">
-        <div>
-            <h2>Piano</h2>
-            <p>Some description: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti pariatur animi ut
-                voluptatem quaerat ipsum optio esse, vero eum fugit ea consequatur, numquam iste quidem natus,
-                repudiandae id officiis quod.</p>
-            <h2><b>300$</b></h2>
+        
+        <form>
+            <h1>Fill the form</h1>
+            <label for="username">Username</label><br>
+            <input type="text" placeholder="username..." id="username">
+            <br><br>
+            
+            <label for="password">Password</label><br>
+            <input type="password" placeholder="password...">
+            <br><br>
+            
+            <label for="date">Date</label><br>
+            <input type="date">
+            <br><br>
 
-            <a href="form.html">Оформити замовлення</a>
-        </div>
+            <input type="number">
+            
+            <button>Submit</button>
+        </form>
+
     </main>
 
     <footer>
@@ -56,5 +66,18 @@
         </div>
     </footer>
 </body>
+
+<style>
+    button {
+        transition-duration: .5s;
+        padding: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 1000;
+    }
+
+    button:hover {
+        background-color: green;
+    }
+</style>
 
 </html>
