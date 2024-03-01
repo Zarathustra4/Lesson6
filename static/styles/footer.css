@@ -1,0 +1,27 @@
+footer {
+    bottom: 0;
+    height: 200px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    padding: 20px;
+    color: rgb(75, 72, 72);
+}
+
+footer .logo img{
+    max-height: 80%;
+}
+
+footer .logo {
+    padding: 20px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
